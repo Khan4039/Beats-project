@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    background: #0f0f10;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.959em;
+    color: #ffffff;
+  }
+
+/* editing logo image in navigation bar  */
+nav img {
+    width: 25px;
+    height: 25px;
+}
+
+/* aplying flex in navigation bar */
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    padding: 35px 0;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+/* aplying flex in ul(unsorted list) */
+.nav-list{
+   list-style: none;
+   display: flex;
+   align-items: baseline;
+   justify-content: space-evenly;
+   width: 40%;
+}
+
+/* editing navigation button */
+nav button{
+   background: #181a1b;
+   padding: 10px 40px; 
+   border-radius: 8px;  
+   justify-content: center
+}
+
+/* aplying flex in main container */
+ main {
+   display: flex;
+   align-items: flex-start;
+   justify-content: center;
+   margin-top: 30px;
+   position: relative;
+   font-weight: lighter;
+   
+}
+
+/* main section button and seection case are combiend */
+main button, section-casse button{
+   background: #181a1b;
+   align-content: baseline;
+   font-size: 1.1em;
+   padding: 10px 40px; 
+   border: none;
+   border-radius: 8px;  
+}
+
+/* main section button and seection case are combiend */
+main button img, main button span, main button b, section-casse button img, section-casse button span{
+   background: transparent;
+   align-items: start;
+   padding: 0 5px;
+}
+
+/* main section button and seection case are combiend */
+main button img,  section-casse button img{
+   position: relative;
+   top: 4px;
+}
+
+/* onEarImg image present in main editing */
+.onEarImg {
+   width: 320px;
+   margin-left: 50px;
+}
+
+/* main heading editing  */
+.beat{
+   font-size: 3em;
+}
+
+/* main div editing  */
+ main div{
+    width: 40%;
+    padding-left: 7%;
+
+ }
+
+/* mainImg editing */
+ .mainImg {
+   width: 230px;
+   position: relative;
+   top: -15em;
+}
+
+.website{
+   list-style: none;
+   justify-content: space-around;
+   align-items: center;
+   display: flex;
+   width: 60%;
+   margin: auto;
+   padding-bottom: 5%;
+}
+
+section-specs div{
+   padding-top: 2%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: lighter;
+}
+
+section-specs div ul{
+   list-style: none;
+   padding-right: 2em;
+}
+
+/* to creat a curv moving two content toward right side */
+.moveright{
+   padding-left: 4em;
+}
+
+/* caseLogo editing */
+.caseLogo{
+   display: block;
+   margin: auto;
+   padding-top: 5%;
+}
+
+/* caseImage editing */
+.caseImage{
+   scale: 0.8;
+   padding-right: 2em;
+}
+
+.section-casse {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: lighter;
+}
+
+.buy-section{
+   background: #181a1b;
+   width: 70%;
+   margin: auto;
+   margin-top: 10%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10%;
+   padding: 3% 5%;
+   border-radius:2em;
+
+}
+
+.buy-section div{
+   background-color: #181a1b;
+   width: 30%;
+   font-weight: lighter;
+}
+
+/* giving background transparent */
+.buy-section div, .buy-section p, .buy-section h3, .buy-section img {
+   background-color: transparent;
+}
+
+buy-section div button{
+   align-content: baseline;
+   font-size: 1.1em;
+   padding: 10px 40px; 
+   border: none;
+   border-radius: 8px; 
+}
+
+.productLogo{
+   display: block;
+   margin: auto;
+   padding: 10% 0 5% 0;
+}
+
+.more-products{
+   width: 75px;
+   height: 100px;
+   position: absolute;
+   z-index: 100;
+   top: -40px;
+   left: 28px;
+}
+
+section-more section{
+   width: 70%;
+   margin: auto;
+   padding: 0 150px;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   align-items: center;
+   /* justify-content: center; */
+   gap: 10%;
+   font-weight: lighter;
+}
+
+section-more section div{
+   position: relative;
+    width: 130px;
+    height: 130px;
+    background: #181a1b;
+    border-radius: 8px;
+    margin:5% 0.3%;
+}
+
+section-more section div detail{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 10%;
+   margin-top: 20%;
+}
+
+section-more section div detail div{
+   height: 40%;
+}
+
+section-more section div img, section-more section div detail, section-more section div detail h3, section-more section div detail span{
+   background: transparent;
+}
+
+footer{
+   width: 70%;
+   margin: 5% auto;
+   display: flex;
+   align-items: start;
+   justify-content: space-between;
+   font-weight: lighter;
+}
+
+.get-email{
+   background: #181A1B;
+   border-radius: 8px;
+   padding: 5px 10px;
+   display: flex;
+}
+
+.get-email input{
+   border: none;
+    background-color: transparent;
+}
+
+footer div button{
+   padding: 10px 20px; 
+   border-radius: 8px; 
+   border: none; 
+   justify-content: center;
+}
+
+.foot-social-link{
+   margin: 2%;
+}
